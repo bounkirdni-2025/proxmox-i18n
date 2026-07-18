@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: proxmox translations\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
 "POT-Creation-Date: 2026-06-21 17:57+0200\n"
-"PO-Revision-Date: 2026-06-02 10:29+0900\n"
-"Last-Translator: angrystar170 <angrystar170@gmail.com>\n"
+"PO-Revision-Date: 2026-07-07 12:59+0900\n"
+"Last-Translator: angrystar170@gmail.com\n"
 "Language-Team: Korean <support@proxmox.com>\n"
-"Language: ko_KR\n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -101,7 +101,7 @@ msgstr "/some/path"
 #: pve-yew-mobile-gui/src/pages/page_dashboard.rs:135
 msgid "1 CPU"
 msgid_plural "{n} CPUs"
-msgstr[0] "1 CPU"
+msgstr[0] "{n} CPUs"
 
 #: pve-yew-mobile-gui/src/pages/page_node_status/dashboard_panel.rs:79
 #: proxmox-yew-comp/src/form/pve/qemu_property/qemu_processor_property.rs:29
@@ -359,7 +359,7 @@ msgstr "중단"
 #: pmg-yew-quarantine-gui/src/page_spam_list.rs:282
 #: pmg-yew-quarantine-gui/src/page_spam_list.rs:354
 msgid "About"
-msgstr ""
+msgstr "정보"
 
 #: pve-manager/www/manager6/form/VMCPUFlagSelector.js:290
 msgid "Accel"
@@ -790,7 +790,7 @@ msgstr "유비코(Yubico) OTP 키 추가"
 
 #: proxmox-datacenter-manager/ui/src/dashboard/view.rs:538
 msgid "Add a remote to see data here."
-msgstr ""
+msgstr "여기에 데이터를 보려면 리모트 제어 장치를 추가하세요."
 
 #: pve-manager/www/manager6/qemu/OSPanel.js:150
 msgid "Add additional drive for VirtIO drivers"
@@ -1260,6 +1260,8 @@ msgid ""
 "Anyone with this link gains full access to the quarantine of {0}. Only share "
 "it with the legitimate recipient."
 msgstr ""
+"이 링크를 가진 사람은 누구나 {0}의 격리 구역에 대한 완전한 접근 권한을 얻게 "
+"됩니다. 정당한 수신자에게만 공유하십시오."
 
 #: pve-manager/www/manager6/ceph/Pool.js:325
 #: proxmox-datacenter-manager/ui/src/ceph/pools.rs:184
@@ -1428,7 +1430,6 @@ msgid "Are you sure you want to remove DHCP mapping {0}"
 msgstr "DHCP 매핑 {0}을(를) 제거할까요?"
 
 #: proxmox-yew-comp/src/user_panel.rs:228
-#, fuzzy
 msgid "Are you sure you want to remove entry '{}'?"
 msgstr "{0} 항목을 제거할까요?"
 
@@ -1596,8 +1597,8 @@ msgstr "할당"
 msgid ""
 "Assisted join: Paste encoded cluster join information and enter password."
 msgstr ""
-"클러스터 참가를 도와드립니다 : 인코딩된 클러스터 참가 정보를 붙여넣고 암호를 "
-"입력하세요."
+"클러스터 가입을 도와드립니다 : 인코딩된 클러스터 정보를 붙여넣고 암호를 입력"
+"하세요."
 
 #: proxmox-backup/www/window/SyncJobEdit.js:42
 msgid "Associated Keys"
@@ -1620,13 +1621,12 @@ msgstr ""
 "다."
 
 #: proxmox-datacenter-manager/ui/src/dashboard/subscription_info.rs:54
-#, fuzzy
 msgid ""
 "At least one remote does not have a valid subscription. Please visit {url} "
 "to get a list of available options."
 msgstr ""
-"이 서버에 대한 유효한 구독이 없습니다. 사용 가능한 옵션 목록을 보려면 {0}을"
-"(를) 방문하세요."
+"적어도 하나의 리모트에 유효한 구독이 없습니다. {url}을 방문하여 사용 가능한 "
+"옵션 목록을 확인하세요."
 
 #: proxmox-datacenter-manager/ui/src/dashboard/subscription_info.rs:61
 msgid ""
@@ -3220,11 +3220,10 @@ msgstr ""
 "다."
 
 #: pmg-gui/js/ClusterAdministration.js:187
-#, fuzzy
 msgid "Cluster join finished, you may need to log in again. Reloading GUI."
 msgstr ""
-"클러스터 가입 작업이 완료되었습니다. 노드 인증서가 변경되었을 수 있으니 GUI"
-"를 다시 로드하세요!"
+"클러스터 가입 작업이 완료되었으며, 다시 로그인해야 할 수 있습니다. GUI를 다"
+"시 로드합니다."
 
 #: pve-manager/www/manager6/dc/ClusterEdit.js:292
 msgid ""
@@ -3813,13 +3812,12 @@ msgid "Copy Layout from"
 msgstr "다음에서 레이아웃 복사"
 
 #: pmg-gui/js/SpamQuarantine.js:166
-#, fuzzy
 msgid "Copy Link"
-msgstr "복사"
+msgstr "링크 복사"
 
 #: pmg-gui/js/SpamContextMenu.js:45
 msgid "Copy Login Link"
-msgstr ""
+msgstr "로그인 링크 복사"
 
 #: proxmox-widget-toolkit/src/window/AddTfaRecovery.js:179
 #: proxmox-yew-comp/src/tfa/tfa_add_recovery.rs:146
@@ -4290,9 +4288,8 @@ msgid "Danish"
 msgstr "덴마크어"
 
 #: proxmox-yew-widget-toolkit/src/widget/theme_mode_selector.rs:83
-#, fuzzy
 msgid "Dark Mode"
-msgstr "모드 재시작"
+msgstr "다크 모드"
 
 #: pmg-gui/js/AttachmentQuarantine.js:134 pmg-gui/js/SpamQuarantine.js:415
 #: pmg-gui/js/VirusQuarantine.js:157
@@ -5409,12 +5406,12 @@ msgstr "키를 USB(펜) 드라이브에 다운로드하여 secure vault에 보�
 #: pmg-gui/js/AttachmentQuarantine.js:144 pmg-gui/js/SpamQuarantine.js:425
 #: pmg-gui/js/VirusQuarantine.js:167
 msgid "Download this mail as .eml"
-msgstr ""
+msgstr "이 메일을 .eml로 다운로드"
 
 #: pmg-gui/js/AttachmentQuarantine.js:142 pmg-gui/js/SpamQuarantine.js:423
 #: pmg-gui/js/VirusQuarantine.js:165
 msgid "Download this mail as an .eml file"
-msgstr ""
+msgstr "이 메일을 .eml 파일로 다운로드"
 
 #: pve-manager/www/manager6/qemu/BootOrderEdit.js:221
 #: pve-manager/www/manager6/qemu/BootOrderEdit.js:233
@@ -7563,9 +7560,8 @@ msgid "Group Guest Types"
 msgstr "게스트 유형 그룹"
 
 #: pmg-gui/js/PBSSnapshotView.js:313
-#, fuzzy
 msgid "Group ID"
-msgstr "그룹"
+msgstr "그룹 ID"
 
 #: pve-manager/www/manager6/dc/ACLView.js:26
 #: pve-manager/www/manager6/dc/ACLView.js:203
@@ -7863,7 +7859,7 @@ msgstr "헤더"
 #: proxmox-datacenter-manager/ui/src/ceph/clusters.rs:261
 #: proxmox-datacenter-manager/ui/src/ceph/dashboard.rs:137
 msgid "Health"
-msgstr "상태"
+msgstr "헬스 상태"
 
 #: pve-manager/www/manager6/ceph/OSDDetails.js:213
 msgid "Heartbeat Back Address"
@@ -7930,9 +7926,8 @@ msgstr "암호 숨김"
 #: pmg-gui/js/SpamQuarantineOptions.js:75
 #: pmg-gui/js/VirusQuarantineOptions.js:21
 #: pmg-gui/js/VirusQuarantineOptions.js:25
-#, fuzzy
 msgid "Hide all images"
-msgstr "이미지 보기"
+msgstr "모든 이미지 숨기기"
 
 #: pve-manager/www/manager6/dc/CPUTypeEdit.js:101
 msgid ""
@@ -8448,6 +8443,8 @@ msgid ""
 "If the e-mail address is valid, a quarantine link has been sent to it. "
 "Please check your inbox."
 msgstr ""
+"이메일 주소가 유효한다면, 해당 주소로 격리 링크가 전송되었을 것입니다. 받은 "
+"편지함을 확인해 주세요."
 
 #: pve-manager/www/manager6/ha/Status.js:114
 msgid "Ignore"
@@ -8974,16 +8971,16 @@ msgstr "클러스터 가입"
 #: pve-manager/www/manager6/dc/Cluster.js:163
 #: pve-manager/www/manager6/dc/ClusterEdit.js:92
 msgid "Join Information"
-msgstr "참여 정보"
+msgstr "가입 정보"
 
 #: pmg-gui/js/ClusterAdministration.js:185
 #: pve-manager/www/manager6/dc/ClusterEdit.js:298
 msgid "Join Task Finished"
-msgstr "참여 작업 완료"
+msgstr "가입 작업 완료"
 
 #: pve-manager/www/manager6/dc/ClusterEdit.js:165
 msgid "Join {0}"
-msgstr "참여 {0}"
+msgstr "가입 {0}"
 
 #: proxmox-yew-widget-toolkit/src/widget/form/date_field/date_panel.rs:561
 msgid "July"
@@ -9425,9 +9422,8 @@ msgid "Lifetime (days)"
 msgstr "수명 (일)"
 
 #: proxmox-yew-widget-toolkit/src/widget/theme_mode_selector.rs:84
-#, fuzzy
 msgid "Light Mode"
-msgstr "라이브 모드"
+msgstr "라이트 모드"
 
 #: pve-manager/www/manager6/qemu/RNGEdit.js:62
 msgid "Limit (Bytes/Period)"
@@ -9560,9 +9556,8 @@ msgid "Load Average"
 msgstr "부하 평균"
 
 #: pmg-gui/js/SpamQuarantine.js:400 pmg-gui/js/VirusQuarantine.js:142
-#, fuzzy
 msgid "Load Images"
-msgstr "부하 평균"
+msgstr "이미지 불러오기"
 
 #: proxmox-backup/www/Utils.js:449
 #: proxmox-yew-comp/src/utils/task_descriptions.rs:266
@@ -9589,14 +9584,14 @@ msgstr "부하 평균"
 
 #: pmg-gui/js/SpamQuarantine.js:405 pmg-gui/js/VirusQuarantine.js:147
 msgid "Load external images of this mail"
-msgstr ""
+msgstr "이 메일의 외부 이미지 불러오기"
 
 #: pmg-gui/js/SpamQuarantineOptions.js:70
 #: pmg-gui/js/SpamQuarantineOptions.js:77
 #: pmg-gui/js/VirusQuarantineOptions.js:20
 #: pmg-gui/js/VirusQuarantineOptions.js:27
 msgid "Load external images on demand"
-msgstr ""
+msgstr "필요에 따라 외부 이미지 불러오기"
 
 #: proxmox-datacenter-manager/ui/src/pbs/mod.rs:121
 #: proxmox-datacenter-manager/ui/src/pve/mod.rs:193
@@ -9605,9 +9600,8 @@ msgid "Load failed"
 msgstr "로드 실패"
 
 #: pmg-yew-quarantine-gui/src/page_mail_view.rs:256
-#, fuzzy
 msgid "Load images"
-msgstr "부하 평균"
+msgstr "이미지 불러오기"
 
 #: proxmox-widget-toolkit/src/window/ACMEAccount.js:79
 #: pve-manager/www/manager6/node/ACME.js:143 proxmox-backup/www/Utils.js:751
@@ -9727,9 +9721,8 @@ msgid "Log"
 msgstr "로그"
 
 #: pmg-gui/js/MailProxyOptions.js:64
-#, fuzzy
 msgid "Log Header Information"
-msgstr "라벨 정보"
+msgstr "로그 헤더 정보"
 
 #: proxmox-backup/www/Utils.js:450
 #: proxmox-datacenter-manager/ui/src/tasks.rs:17
@@ -9778,9 +9771,8 @@ msgid "Login (OpenID redirect)"
 msgstr "로그인(OpenID 리디렉션)"
 
 #: pmg-gui/js/SpamQuarantine.js:155
-#, fuzzy
 msgid "Login Link"
-msgstr "로그인"
+msgstr "로그인 링크"
 
 #: proxmox-datacenter-manager/ui/src/remotes/wizard_page_info.rs:306
 msgid "Login and create Token"
@@ -10081,20 +10073,20 @@ msgstr "3월"
 #: pmg-gui/js/SpamContextMenu.js:32 pmg-yew-quarantine-gui/src/spam_list.rs:303
 #: pmg-yew-quarantine-gui/src/page_mail_view.rs:228
 msgid "Mark as Seen"
-msgstr ""
+msgstr "'열람된 것'으로 표시"
 
 #: pmg-gui/js/SpamContextMenu.js:38 pmg-yew-quarantine-gui/src/spam_list.rs:299
 #: pmg-yew-quarantine-gui/src/page_mail_view.rs:236
 msgid "Mark as Unseen"
-msgstr ""
+msgstr "'미열람된 것'으로 표시"
 
 #: pmg-gui/js/SpamQuarantine.js:444
 msgid "Mark this mail as seen or unseen"
-msgstr ""
+msgstr "이 메일을 읽음 혹은 읽지 않음으로 표시하기"
 
 #: pmg-gui/js/SpamQuarantine.js:304 pmg-gui/js/SpamQuarantine.js:315
 msgid "Marked as seen"
-msgstr ""
+msgstr "'열람된 것'으로 표시됨"
 
 #: pmg-gui/js/LDAPGroupEditor.js:74
 #: pve-manager/www/manager6/sdn/RouteMapPanel.js:798
@@ -10228,9 +10220,8 @@ msgid "Max. Restart"
 msgstr "최대 재시작"
 
 #: pmg-gui/js/MailProxyOptions.js:83
-#, fuzzy
 msgid "Maximal Queue Lifetime (days)"
-msgstr "수명 (일)"
+msgstr "최대 대기열 수명(일)"
 
 #: pve-manager/www/manager6/dc/OptionView.js:357
 msgid "Maximal Workers/bulk-action"
@@ -10694,7 +10685,7 @@ msgstr "마운트 지점"
 #: pve-manager/www/manager6/lxc/MPEdit.js:198
 #: proxmox-yew-comp/src/form/pve/lxc_property/lxc_mount_point_property.rs:190
 msgid "Mount Point ID"
-msgstr "마운트 지점 ID "
+msgstr "마운트 지점 ID"
 
 #: pve-manager/www/manager6/lxc/MPEdit.js:303
 #: proxmox-yew-comp/src/form/pve/lxc_property/lxc_mount_point_property.rs:253
@@ -12188,6 +12179,8 @@ msgstr "참고: SEV-SNP에는 호스트 커널 버전 6.11 이상이 필요합�
 msgid ""
 "Note: the cluster runs Proxmox Mail Gateway {0}, but this node runs {1}."
 msgstr ""
+"참고: 클러스터는 Proxmox Mail Gateway {0}을(를) 실행하지만 이 노드는 {1}을"
+"(를) 실행합니다."
 
 #: proxmox-widget-toolkit/src/panel/NotesView.js:6
 #: proxmox-widget-toolkit/src/window/NotesEdit.js:4
@@ -12447,7 +12440,7 @@ msgstr "On-site"
 #: proxmox-yew-comp/src/apt_package_manager.rs:481
 msgid "One item"
 msgid_plural "{n} items"
-msgstr[0] "{}개의 항목"
+msgstr[0] "{n}개의 항목"
 
 #: proxmox-datacenter-manager/ui/src/configuration/subscription_keys.rs:432
 msgid ""
@@ -12518,7 +12511,7 @@ msgstr ""
 
 #: pmg-gui/js/SpamDetectorOptions.js:39
 msgid "Only the first part of a mail, up to this size, is scanned for spam."
-msgstr ""
+msgstr "스팸 여부를 검사할 때는 메일의 앞부분, 즉 이 크기까지만 검사합니다."
 
 #: pmg-gui/js/Utils.js:389
 msgid "Only top level headers"
@@ -12566,9 +12559,8 @@ msgid "Open restore wizard for {0}"
 msgstr "{0}에 대한 복원 마법사 열기"
 
 #: proxmox-datacenter-manager/ui/src/top_nav_bar.rs:197
-#, fuzzy
 msgid "Open the documentation in a new tab."
-msgstr "베타 문서를 새 탭에서 엽니다."
+msgstr "문서를 새 탭에서 엽니다."
 
 #: proxmox-datacenter-manager/ui/src/pve/qemu/mod.rs:78
 #: proxmox-datacenter-manager/ui/src/pve/qemu/mod.rs:94
@@ -13178,7 +13170,7 @@ msgstr "Period"
 #: pmg-gui/js/AttachmentQuarantine.js:164 pmg-gui/js/SpamQuarantine.js:468
 #: pmg-gui/js/VirusQuarantine.js:187
 msgid "Permanently delete this quarantined mail"
-msgstr ""
+msgstr "격리된 메일을 영구적으로 삭제하기"
 
 #: proxmox-backup/www/datastore/Content.js:1203
 msgid "Permanently forget group '{0}'"
@@ -13274,7 +13266,7 @@ msgstr "다시 로드하세요"
 
 #: proxmox-datacenter-manager/ui/src/remotes/auto_installer/prepared_answer_form.rs:417
 msgid "Please adapt the default FQDN template!"
-msgstr ""
+msgstr "기본 FQDN 템플릿을 수정해 주세요!"
 
 #: proxmox-widget-toolkit/src/window/TfaWindow.js:447
 msgid "Please enter one of your single-use recovery keys"
@@ -13528,7 +13520,7 @@ msgstr "전원 끄기"
 #: pve-manager/www/manager6/qemu/HDEfi.js:71
 #: proxmox-yew-comp/src/form/pve/qemu_property/qemu_efidisk_property.rs:150
 msgid "Pre-Enroll keys"
-msgstr "사전 등록 키"
+msgstr "키 사전 등록"
 
 #: pve-manager/www/manager6/dc/OptionView.js:539
 msgid "Pre-defined:"
@@ -14053,9 +14045,8 @@ msgid "Quarantine Host"
 msgstr "검역소 호스트"
 
 #: pmg-gui/js/SpamQuarantine.js:131
-#, fuzzy
 msgid "Quarantine Login Link"
-msgstr "검역소 링크 요청"
+msgstr "검역소 로그인 링크"
 
 #: pmg-gui/js/Utils.js:45
 msgid "Quarantine Manager"
@@ -14650,7 +14641,7 @@ msgstr "릴레이"
 #: pmg-gui/js/AttachmentQuarantine.js:157 pmg-gui/js/SpamQuarantine.js:450
 #: pmg-gui/js/VirusQuarantine.js:180
 msgid "Release this mail to its recipient"
-msgstr ""
+msgstr "이 메일을 수신자에게 전달하기"
 
 #: proxmox-widget-toolkit/src/Utils.js:761
 #: proxmox-widget-toolkit/src/node/APTRepositories.js:154
@@ -15310,9 +15301,8 @@ msgid "Restore Tape Key"
 msgstr "테이프 키 복원"
 
 #: pmg-gui/js/MailTracker.js:170
-#, fuzzy
 msgid "Result Limit"
-msgstr "비율 제한"
+msgstr "결과 제한"
 
 #: pve-manager/www/manager6/window/GuestImport.js:950
 msgid "Resulting Config"
@@ -16012,7 +16002,7 @@ msgstr "초"
 #: proxmox-yew-comp/src/tfa/tfa_add_totp.rs:110
 #: proxmox-yew-comp/src/token_panel.rs:347
 msgid "Secret"
-msgstr "비밀"
+msgstr "비밀 구문"
 
 #: pve-manager/www/manager6/storage/CephFSEdit.js:111
 #: proxmox-backup/www/window/S3ClientEdit.js:101
@@ -16042,7 +16032,7 @@ msgstr "보안 그룹"
 
 #: pmg-gui/js/SpamQuarantine.js:297 pmg-gui/js/SpamQuarantine.js:439
 msgid "Seen"
-msgstr ""
+msgstr "열람된 것"
 
 #: proxmox-datacenter-manager/ui/src/widget/view_filter_selector.rs:232
 msgid "Select"
@@ -16415,14 +16405,12 @@ msgid "Severity"
 msgstr "심각도"
 
 #: pve-manager/www/manager6/dc/OptionView.js:460
-#, fuzzy
 msgid "Shape"
-msgstr "트리 모양"
+msgstr "모양"
 
 #: pve-manager/www/manager6/dc/OptionView.js:396
-#, fuzzy
 msgid "Shape: {0}"
-msgstr "트리 모양: {0}"
+msgstr "모양: {0}"
 
 #: pve-manager/www/manager6/dc/StorageView.js:138
 #: pve-manager/www/manager6/form/StorageSelector.js:60
@@ -16536,9 +16524,8 @@ msgstr "사용자 표시"
 #: pmg-gui/js/SpamQuarantineOptions.js:76
 #: pmg-gui/js/VirusQuarantineOptions.js:19
 #: pmg-gui/js/VirusQuarantineOptions.js:26
-#, fuzzy
 msgid "Show all images"
-msgstr "모든 파츠 표시"
+msgstr "모든 이미지 표시"
 
 #: pve-manager/www/manager6/window/Settings.js:288
 msgid "Show by default"
@@ -16560,7 +16547,7 @@ msgstr "설치된 서비스만 표시"
 #: pmg-gui/js/AttachmentQuarantine.js:120 pmg-gui/js/SpamQuarantine.js:390
 #: pmg-gui/js/VirusQuarantine.js:133
 msgid "Show the raw message source instead of the rendered mail"
-msgstr ""
+msgstr "렌더링된 메일 대신 원본 메시지 소스 표시"
 
 #: proxmox-datacenter-manager/ui/src/remotes/firewall/tree.rs:339
 msgid "Show tree panel"
@@ -16972,9 +16959,8 @@ msgid "Spam Quarantine"
 msgstr "스팸 검역소"
 
 #: pmg-gui/js/SpamInfoGrid.js:5
-#, fuzzy
 msgid "Spam Score Breakdown"
-msgstr "스팸 점수"
+msgstr "스팸 점수 분석"
 
 #: pmg-gui/js/NavigationTree.js:160 pmg-gui/js/SpamScoreDistribution.js:8
 msgid "Spam Scores"
@@ -17140,9 +17126,8 @@ msgid "Start/Shutdown order"
 msgstr "시작/종료 순서"
 
 #: pmg-gui/js/PBSSnapshotView.js:53
-#, fuzzy
 msgid "Started verification task on the Proxmox Backup Server."
-msgstr "Proxmox 백업 서버에서 직접 백업 보존을 구성하는 것이 좋습니다."
+msgstr "Proxmox 백업 서버에서 검증 작업을 시작했습니다."
 
 #: pve-manager/www/manager6/window/GuestImport.js:339
 msgid "Starts a VM and imports the disks in the background"
@@ -17815,9 +17800,8 @@ msgid "System Report"
 msgstr "시스템 보고서"
 
 #: proxmox-yew-widget-toolkit/src/widget/theme_mode_selector.rs:82
-#, fuzzy
 msgid "System Theme"
-msgstr "시스템"
+msgstr "시스템 테마"
 
 #: proxmox-widget-toolkit/src/Utils.js:802
 msgid "TB"
@@ -18379,6 +18363,8 @@ msgid ""
 "The logged headers and addresses can contain personal data. Make sure this "
 "complies with your data-protection obligations before enabling."
 msgstr ""
+"기록된 헤더와 주소에는 개인 정보가 포함될 수 있습니다. 이 기능을 활성화하기 "
+"전에 데이터 보호 의무를 준수하는지 확인하세요."
 
 #: pve-manager/www/manager6/ceph/CephInstallWizard.js:188
 msgid ""
@@ -18537,7 +18523,7 @@ msgstr "올바른 호스트명이 아님"
 
 #: pmg-gui/js/ClusterAdministration.js:149
 msgid "This is not the join information of a Proxmox Mail Gateway cluster."
-msgstr ""
+msgstr "이것은 Proxmox Mail Gateway 클러스터의 가입 정보가 아닙니다."
 
 #: pve-manager/www/manager6/qemu/HardwareView.js:576
 msgid "This is required for each drive with BitLocker before proceeding!"
@@ -18752,11 +18738,11 @@ msgstr "Raw로 전환"
 #: pmg-gui/js/AttachmentQuarantine.js:122 pmg-gui/js/SpamQuarantine.js:393
 #: pmg-gui/js/VirusQuarantine.js:135
 msgid "Toggle raw message source"
-msgstr ""
+msgstr "원시 메시지 소스 전환"
 
 #: pmg-gui/js/SpamQuarantine.js:441
 msgid "Toggle seen state"
-msgstr ""
+msgstr "'열람된 것' 상태 전환"
 
 #: pve-manager/www/manager6/dc/MetricServerView.js:324
 #: pve-manager/www/manager6/dc/TokenEdit.js:6
@@ -18835,9 +18821,8 @@ msgid "Top Receivers"
 msgstr "상위 수신자"
 
 #: pmg-gui/js/Dashboard.js:517
-#, fuzzy
 msgid "Top Senders"
-msgstr "발신자"
+msgstr "상위 발신자"
 
 #: proxmox-widget-toolkit/src/Utils.js:59 pmg-gui/js/PostfixQShape.js:120
 #: pmg-gui/js/ServerStatus.js:139 pmg-gui/js/ServerStatus.js:147
@@ -20670,6 +20655,8 @@ msgid ""
 "Warning: the cluster runs Proxmox Mail Gateway {0}, but this node runs {1}. "
 "Joining across major versions is not supported."
 msgstr ""
+"경고: 클러스터는 Proxmox Mail Gateway {0}을(를) 실행하지만, 이 노드는 {1}을"
+"(를) 실행합니다. 주요 버전이 다른 클러스터에 가입하는 것은 지원되지 않습니다."
 
 #: pve-manager/www/manager6/window/GuestImport.js:636
 #: proxmox-yew-comp/src/task_status_selector.rs:160
@@ -21364,7 +21351,7 @@ msgstr "실험적"
 
 #: proxmox-datacenter-manager/ui/src/remotes/auto_installer/token_panel.rs:447
 msgid "expiry must be in the future"
-msgstr ""
+msgstr "만료일은 미래여야 함"
 
 #: proxmox-yew-comp/src/tfa/tfa_add_webauthn.rs:147
 msgid "failed to parse webauthn registration challenge"
@@ -21467,9 +21454,8 @@ msgid "invalid data"
 msgstr "잘못된 데이터"
 
 #: proxmox-datacenter-manager/ui/src/remotes/auto_installer/token_panel.rs:450
-#, fuzzy
 msgid "invalid expiry date"
-msgstr "잘못된 데이터"
+msgstr "잘못된 만료일"
 
 #. do not allow "inf", "nan", ...
 #: proxmox-yew-widget-toolkit/src/dom/number_format.rs:112
@@ -22338,7 +22324,7 @@ msgstr ""
 #~ msgstr ""
 #~ "적어도 하나의 리모트에 유효한 구독이 없습니다. <a target=\"_blank\" "
 #~ "href=\"https://www.proxmox.com\">www.proxmox.com</a>을 방문하여\n"
-#~ "사용 가능한 옵션 목록을 확인하세요. "
+#~ "사용 가능한 옵션 목록을 확인하세요."
 
 #~ msgid "Auto"
 #~ msgstr "자동"
